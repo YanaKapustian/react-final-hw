@@ -1,0 +1,60 @@
+.user-input {
+    width: 400px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: none;
+    padding: 2px 10px;
+    margin-bottom: 20px;
+    background-color: rgb(219, 217, 217);
+}
+.btn {
+    width: 90px;
+    height: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message {
+    font-size: 18px;
+    color: rgb(230, 101, 101);
+    margin: 5px 0;
+}
+p {
+    margin: 0;
+}
+.user-photo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-block {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.user-name {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.user-nickname {
+    font-size: 20px;
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+.user-info {
+    margin-left: 15px;
+}
+.message-state {
+    color: rgba(255, 255, 255, 0.759);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
